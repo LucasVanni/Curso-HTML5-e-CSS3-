@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+.exemplo {
+    border: 1px solid #0f0;
+    padding: 20px
+}
+
+.exemplo2 {
+    border: 1px solid #0ff;
+    padding: 50px 15px 50px 15px;
+}
