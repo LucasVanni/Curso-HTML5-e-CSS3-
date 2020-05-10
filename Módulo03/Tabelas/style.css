@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+table {
+    width: 300px;
+}
+
+/*
+th, td {
+   border: 1px solid #000;
+}
+*/
+
+table thead {
+    background-color: #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: normal;
+}
+
+tbody td {
+    border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tbody tr:hover {
+    background-color: #eee;
+}
+
+
