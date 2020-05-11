@@ -4,7 +4,7 @@
 }
 
 table {
-    width: 300px;
+    width: 600px;
 }
 
 /*
@@ -26,9 +26,11 @@ th {
     font-weight: normal;
 }
 
+/*
 tbody td {
     border-bottom: 1px solid #ccc;
 }
+*/
 
 tbody tr:nth-child(even) {
     background-color: #ddd;
