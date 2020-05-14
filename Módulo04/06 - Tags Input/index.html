@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tag Input</title>
+    <script>
+        function updateTextInput(val) {
+            document.getElementById('textInput').value=val;
+        }
+    </script>
+</head>
+<body>
+    <form method="get">
+
+        <label>
+            Digite seu e-mail<br/>
+            <input type="email" name="email" required>
+        </label>
+
+        <br/>
+
+        <label>
+            Digite seu Telefone <br />
+            <input type="tel" name="phone">
+        </label>
+
+        <br/>
+
+        <label>
+            Digite seu número <br />
+            <input type="number" name="número">
+        </label>
+
+        <br/>
+
+        <label>
+            Range <br />
+            <input type="range" min="1" max="200" name="range">
+        </label>
+
+        <br/>
+
+        <label>
+            Digite seu Telefone <br />
+            <input type="tel" name="phone">
+        </label>
+
+        <br/>
+
+        <label>
+            Data de aniversário <br />
+            <input type="date" name="data">
+        </label>
+
+        <br/>
+
+        <label>
+            Mês<br />
+            <input type="month" name="mes">
+        </label>
+
+        <br/>
+
+        <label>
+            Semana<br />
+            <input type="week" name="semana">
+        </label>
+
+        <br/>
+
+
+        <label>
+            Tempo<br />
+            <input type="time" name="tempo">
+        </label>
+
+        <br/>
+
+        <label>
+            Data e horário: <br />
+            <input type="datetime-local" name="datetime">
+        </label>
+
+        <br/>
+
+        <label>
+            Digite sua pesquisa <br />
+            <input type="search" name="search">
+        </label>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
