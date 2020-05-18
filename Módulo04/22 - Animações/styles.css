@@ -1,0 +1,168 @@
+/*
+    Animações
+*/
+/*@keyframes exemplo {*/
+/*    0% {background-color: red; top: 0; left: 0} !* Primeiro Frame da animação *!*/
+/*    25% {background-color: yellow; top: 0; left: 200px}*/
+/*    50% {background-color: blue; top: 200px; left: 200px}*/
+/*    75% {background-color: green; top: 200px; left: 0}*/
+/*    100% {background-color: red;top: 0; left: 0}*/
+/*}*/
+
+/*@keyframes primeiroL {*/
+/*    0% {background-color: #000080}*/
+/*    10% {background-color: #04179b}*/
+/*    20% {background-color: #071ec9}*/
+/*    30% {background-color: #244ce4}*/
+/*    40% {background-color: #4c89ff}*/
+/*    50% {background-color: #000080}*/
+/*    60% {background-color: #4c89ff}*/
+/*    70% {background-color: #244ce4}*/
+/*    80% {background-color: #071ec9}*/
+/*    90% {background-color: #04179b}*/
+/*    100% {background-color: #000080}*/
+/*}*/
+
+/*@keyframes segundoL {*/
+/*    0% {background-color: #04179b}*/
+/*    10% {background-color: #071ec9}*/
+/*    20% {background-color: #244ce4}*/
+/*    30% {background-color: #4c89ff}*/
+/*    40% {background-color: #000080}*/
+/*    50% {background-color: #04179b}*/
+/*    60% {background-color: #000080}*/
+/*    70% {background-color: #4c89ff}*/
+/*    80% {background-color: #244ce4}*/
+/*    90% {background-color: #071ec9}*/
+/*    100% {background-color: #04179b}*/
+/*}*/
+
+/*@keyframes terceiroL {*/
+/*    0% {background-color: #071ec9}*/
+/*    10% {background-color: #244ce4}*/
+/*    20% {background-color: #4c89ff}*/
+/*    30% {background-color: #4c89ff}*/
+/*    40% {background-color: #04179b}*/
+/*    50% {background-color: #071ec9}*/
+/*    60% {background-color: #04179b}*/
+/*    70% {background-color: #000080}*/
+/*    80% {background-color: #4c89ff}*/
+/*    90% {background-color: #244ce4}*/
+/*    100% {background-color: #071ec9}*/
+/*}*/
+
+@keyframes animate {
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+.exemplo {
+    background-color: transparent;
+}
+
+.letraL {
+    margin: 0;
+    line-height: 1;
+    font-size: 20em;
+    font-weight: bold;
+    color: transparent;
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, #101289, #2a6bf4, #a7f4ff, #2a6bf4, #101289);
+    -webkit-background-clip: text;
+    animation: animate 5s linear infinite;
+    -webkit-background-size: 500%;
+    background-size: 500%;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(10px 10px #888);
+}
+
+
+
+
+/*.primeiroParteL {*/
+/*    width: 120px;*/
+/*    height: 200px;*/
+/*    background-color: #000080;*/
+/*    animation-name: primeiroL;*/
+/*    animation-duration: 5s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.segundaParteL {*/
+/*    position: absolute;*/
+/*    width: 250px;*/
+/*    height: 100px;*/
+/*    background-color: #000080;*/
+/*    animation-name: primeiroL;*/
+/*    animation-duration: 5s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.primeiroParteSegundoL {*/
+/*    position: absolute;*/
+/*    top: 10px;*/
+/*    left: 10px;*/
+/*    width: 100px;*/
+/*    height: 200px;*/
+/*    background-color: #04179b;*/
+/*    animation-name: segundoL;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+/*.segundaParteSegundoL {*/
+/*    position: absolute;*/
+/*    width: 230px;*/
+/*    top: 210px;*/
+/*    left: 10px;*/
+/*    height: 80px;*/
+/*    background-color: #04179b;*/
+/*    animation-name: segundoL;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+
+/*.segundaParteTerceiroL {*/
+/*    position: absolute;*/
+/*    width: 210px;*/
+/*    top: 220px;*/
+/*    left: 20px;*/
+/*    height: 60px;*/
+/*    background-color: #a7f4ff;*/
+/*    animation-name: terceiroL;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
+
+
+
+
+
+
+/*.primeiroParteTerceiroL {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    left: 20px;*/
+/*    width: 80px;*/
+/*    height: 200px;*/
+/*    background-color: #a7f4ff;*/
+/*    animation-name: terceiroL;*/
+/*    animation-duration: 10s;*/
+/*    animation-iteration-count: infinite;*/
+/*}*/
+
