@@ -1,0 +1,23 @@
+.container div,
+.container2 div{
+    background: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    flex: 1
+}
+
+
+
+.container {
+    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.container2 {
+    background: #ddd;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
