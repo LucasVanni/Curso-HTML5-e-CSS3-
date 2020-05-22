@@ -1,3 +1,7 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -43,7 +47,6 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Roboto, Arial, sans-serif;
 }
 
 nav .active a,
@@ -93,7 +96,6 @@ nav a:hover {
 }
 
 .banners {
-    display: flex;
     flex: 1;
     color: #fff;
     padding: 20px;
@@ -109,4 +111,277 @@ nav a:hover {
 
 .third_banner {
     background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin: 20px 0 20px 0;
+}
+
+#banner .banner_options a {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 5px;
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.opening-hours-texts {
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+.opening-hours_border {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(238, 238, 238, 0.35);
+}
+
+.textOpening {
+    margin: 15px 0;
+}
+
+#general {
+    display: flex;
+    justify-content: center;
+}
+
+#general section {
+    flex: 2;
+}
+
+#general aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin: 30px 0 20px 0;
+}
+
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.quad {
+    background-color: #39aae1;
+    width: 125px;
+    height: 125px;
+    margin: 10px 25px 15px 0
+}
+
+.lineQuad {
+    display: flex;
+}
+
+.desc {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ddd;
+}
+
+.items {
+    margin: 10px 0 5px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .text {
+    font-size: 12px;
+    color: #fff;
+    padding: 10px;
+}
+
+article .news_posted_at {
+    margin-right: 2px;
+    background-color: #2b4c99;
+}
+
+article .news_comments {
+    background-color: #39aae1;
+}
+
+article .news_thumbnail {
+    margin-top: 30px;
+}
+
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin: 25px 0 25px 0;
+    color: #000;
+    font-size: 23px;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.footer_menu_item {
+    flex: 1;
+    color: #fff;
+}
+
+.first_footer_menu {
+    background-color: #39aae1;
+}
+
+.second_footer_menu {
+    background-color: #0079c7;
+}
+
+.third_footer_menu {
+    background-color: #2b4c99;
+}
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.footer_area {
+    display: flex;
+    color: #fff;
+}
+
+.footer_area_item {
+    flex: 1;
+}
+
+footer .widget_title_text {
+    color: #fff;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.menu_mobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin: 40px 20px 40px 0;
+}
+
+.mm_line {
+    height: 4px;
+    background-color: #39aae1;
+}
+
+@media (max-width: 600px) {
+    .banner_headline {
+        padding: 20px;
+    }
+
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #general section,
+    #general aside {
+        padding: 20px;
+    }
+
+    .footer_menu{
+        flex-direction: column;
+    }
+
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menu_mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
