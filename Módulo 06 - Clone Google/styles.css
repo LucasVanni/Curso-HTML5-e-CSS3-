@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin: 10px;
+    align-items: center;
+}
+
+header span {
+   margin-right: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.avatar {
+    border-radius: 40px;
+    border: 2px solid #727272;
+    color: #727272;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+section img {
+    margin-top: 300px;
+}
+
+section input {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 424px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #727272;
+
+}
+
+footer span {
+    text-align: center;
+}
+
+.brasil {
+    padding: 5px 20px;
+    color: #CCCCCC;
+    border-top: 2px solid #CCCCCC;
+}
+
+.rodape {
+    border-top: 2px solid #CCCCCC;
+    padding: 10px 20px;
+    color: #CCCCCC;
+    display: flex;
+    justify-content: space-between;
+}
